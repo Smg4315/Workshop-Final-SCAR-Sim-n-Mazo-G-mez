@@ -10,7 +10,7 @@
 int main() {
     srand((unsigned) time(NULL));
 
-    int size = MAX_SIZE, iterator = 0; // o usar: MIN_SIZE + (rand() % MAX_SIZE)
+    int size = MAX_SIZE, iterator = 0; // MIN_SIZE + (rand() % MAX_SIZE)
     double time_spent = 0.0;
     double A[size][size], B[size][size], C[size][size];
 
@@ -21,21 +21,21 @@ int main() {
 
         // Start modifying here
 
-        // Usamos punteros para acceder secuencialmente
+        // Usamos punteros para acceder secuencialmente y más facil a la memoria
         double *pA = &A[0][0];
         double *pB = &B[0][0];
         double *pC = &C[0][0];
 
-        // Inicialización
+        // Inicialización -> llenamos de valores aleatorios las matrices A y B (usando punteros)
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 *(pA + i * size + j) = 1 + ((double)rand() / RAND_MAX) * MAX_NUM;
-                *(pB + j * size + i) = 1 + ((double)rand() / RAND_MAX) * MAX_NUM; // transpuesta
+                *(pB + j * size + i) = 1 + ((double)rand() / RAND_MAX) * MAX_NUM; // usamos la transpuesta de B para facilidad de acceso
                 *(pC + i * size + j) = 0;
             }
         }
 
-        // Multiplicación
+        // Multiplicamos teniendo en cuenta el acceso de punteros
         for (int j = 0; j < size; j++) {
             for (int k = 0; k < size; k++) {
                 for (int i = 0; i < size; i++) {
