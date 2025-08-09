@@ -4,6 +4,8 @@
 - Pointers to acces and manage storage in a optimizated way, it already reduce.
 - 
 
+## EVIDENCE
+
 -> Let's print the time before optimizing (setting the size of the matrix in 400, allowing it to be a fair comparission)
 
 *Time Before optimizing:*
