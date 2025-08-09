@@ -1,8 +1,23 @@
 ## HOW TO RUN 
----
+
+### 1. Clonar el repositorio
+git clone https://github.com/Smg4315/Workshop-Final-SCAR-Sim-n-Mazo-G-mez
+
+### 2. Entrar al directorio del proyecto
+cd Workshop-Final-SCAR-Sim-n-Mazo-G-mez
+
+### 3. Crear el directorio bin dentro de la carpeta del proyecto
+mkdir bin
+
+### 4. Compilar el archivo mmm_implementation.c dentro de bin
+cc -o bin/mmm mmm_implementation.c
+
+### 5. Ejecutar en tu PC
+./bin/mmm
+
 ## METHODS USED:
 - Pointers to acces and manage storage in a optimizated way, it already reduce.
-- 
+- I tried to use OpenMP and virtuazlization but in mac is kinda hard
 
 ## EVIDENCE
 
@@ -15,6 +30,8 @@
 *Time After optimizing:*
 
 ![despues](images/despues.png)
+
+As we can see, even if the time didnt reduced too much (maybe using OpenMP could be more optimized) it got a significant reduce that confirms the importance of pointers
 
 Difficults that i had developing the workshop:
 
