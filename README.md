@@ -5,3 +5,8 @@
 *Time Before optimizing:*
 
 ![antes](images/antes.png)
+
+Difficults that i had developing the workshop:
+
+- I didnt know how does C works, so i had to learn its basic sintaxis, etc...
+- I had to change a couple of parts of the code, specifically in the matriz definition, i changed it because it was designed for and arm64 arquitecture (one that its not mine), so i definided it normal.
