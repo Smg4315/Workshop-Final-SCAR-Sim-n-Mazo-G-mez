@@ -1,7 +1,7 @@
 # Workshop-Final-SCAR-Simon-Mazo-Gomez
 
 #HOW TO RUN 
-...
+---
 #METHODS USED:
 - Pointers to acces and manage storage in a optimizated way, it already reduce.
 - 
