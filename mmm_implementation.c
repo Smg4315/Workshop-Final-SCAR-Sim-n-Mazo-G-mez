@@ -3,13 +3,13 @@
 #include <time.h>
 
 #define N 50
-#define MIN_SIZE 100
-#define MAX_SIZE 10000
+#define MIN_SIZE 399
+#define MAX_SIZE 400
 #define MAX_NUM 10000000.0
 
 int main(){
     srand((unsigned) time(NULL));
-    int size = MIN_SIZE + (rand() % MAX_SIZE), iterator = 0;
+    int size = MAX_SIZE, iterator= 0; // MIN_SIZE + (rand() % MAX_SIZE), iterator = 0;
     double time_spent = 0.0;
     double A[size][size] , B[size][size] , C[size][size];
 
