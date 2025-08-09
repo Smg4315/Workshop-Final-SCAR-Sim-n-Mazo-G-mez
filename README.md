@@ -4,3 +4,4 @@
 
 *Time Before optimizing:*
 
+![antes](images/antes.png)
