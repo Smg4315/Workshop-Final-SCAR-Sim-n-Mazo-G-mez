@@ -12,6 +12,10 @@
 
 ![antes](images/antes.png)
 
+*Time After optimizing:*
+
+![despues](images/despues.png)
+
 Difficults that i had developing the workshop:
 
 - I didnt know how does C works, so i had to learn its basic sintaxis, etc...
