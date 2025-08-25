@@ -35,9 +35,7 @@ clang -o bin/mmm mmm_implementation.c
 
 As we can see, even if the time didnt reduced too much (maybe using OpenMP could be more optimized) it got a significant reduce that confirms the importance of pointers
 
-*Time After optimizing it with pointers and OpenMP*
-
-Difficults that i had developing the workshop:
+**Difficults that i had developing the workshop:**
 
 - I didnt know how does C works, so i had to learn its basic sintaxis, etc...
 - I had to change a couple of parts of the code, specifically in the matriz definition, i changed it because it was designed for and arm64 arquitecture (one that its not mine), so i definided it normal.
