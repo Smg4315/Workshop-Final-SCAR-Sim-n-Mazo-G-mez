@@ -10,14 +10,16 @@ cd Workshop-Final-SCAR-Sim-n-Mazo-G-mez
 mkdir bin
 
 ### 4. Compilar el archivo mmm_implementation.c dentro de bin
-cc -o bin/mmm mmm_implementation.c
+clang -o bin/mmm mmm_implementation.c
 
 ### 5. Ejecutar en tu PC
 ./bin/mmm
 
-## METHODS USED:
+
+## METHODS AND COMPILER USED:
 - Pointers to acces and manage storage in a optimizated way, it already reduce.
-- I tried to use OpenMP and virtuazlization but in mac is kinda hard
+- I tried to use OpenMP and virtuazlization but in mac is kinda hard. Anyway, i let the code with it, hopiung that it runs on Linux (specifically in APOLO)
+- The compiler used was Clang :) 
 
 ## EVIDENCE
 
